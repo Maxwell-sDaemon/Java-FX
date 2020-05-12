@@ -14,7 +14,7 @@ Runnable thread = new Runnable{
           ourLabel.setText("confirmed");
         }
       }
-    }catch(RuntimeException e){
+    }catch(InterruptedException e){
     e.getStackTrace();
     }
  }
